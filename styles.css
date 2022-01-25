@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgb(255, 196, 0);
+    color: rgb(92, 1, 1);
+    }
+    
+    p.lista1{
+        display: block;
+        list-style-type: square;
+        margin-top: 1em;
+        margin-bottom: 1 em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
+    }
+
+    #mapa1{
+        padding: 0;
+        margin: 0;
+        height: 700px;
+        width: 1000px;
+    }
