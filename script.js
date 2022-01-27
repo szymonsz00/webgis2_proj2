@@ -67,7 +67,9 @@ require([
     };
     fl.renderer=simple;
 //////////////////////////////////////
-    let gl=new GraphicsLayer({});
+    let gl=new GraphicsLayer({
+        title:"Magnitude more than 4"
+    });
 
     let query=fl.createQuery();
     query.where="MAGNITUDE > 4";
@@ -85,7 +87,6 @@ require([
 
     let getResults=(features)=>{
         let symbol={
-            label:"magnituda powyżej 4",
             type:"simple-marker",
             size:10,
             color:"blue",
